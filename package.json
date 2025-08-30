@@ -1,0 +1,17 @@
+{
+  "name": "event-bookings-automation",
+  "version": "1.0.0",
+  "description": "Automation tests for EventBookings",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:auth": "npx playwright test tests/auth.spec.js",
+    "test:auth-headed": "npx playwright test tests/auth.spec.js --headed",
+    "test:report": "npx playwright test --reporter=html",
+    "playwright:install": "npx playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
