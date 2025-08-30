@@ -56,7 +56,7 @@ event-bookings-automation/
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/nakais/event-bookings-automation.git
 cd event-bookings-automation
 ```
 2. Install dependencies
